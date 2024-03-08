@@ -249,7 +249,7 @@ class OpenAIAgent(conversation.AbstractConversationAgent):
         """Generate a prompt for the user."""
         return template.Template(raw_prompt, self.hass).async_render(
             {
-                "ha_name": self.hass.config.location_name,
+                "": self.hass.config.location_name,
                 "exposed_entities": exposed_entities,
                 "current_device_id": user_input.device_id,
             },

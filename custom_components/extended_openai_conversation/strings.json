@@ -22,6 +22,10 @@
     "step": {
       "init": {
         "data": {
+          "api_key": "API Key",
+          "base_url": "LLM Endpoint URL",
+          "api_version": "v1",
+          "skip_authentication": "true",
           "prompt": "Prompt Template",
           "model": "Completion Model",
           "max_tokens": "Maximum tokens to return in response",
